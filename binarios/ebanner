@@ -20,3 +20,6 @@ sudo systemctl restart ssh
 
 # Alias para editar el banner con nano
 echo "alias bannere='sudo nano /etc/ssh/sshd-banner'" >> ~/.zshrc
+
+
+#https://emojicombos.com/star-wars-logo-ascii-art
