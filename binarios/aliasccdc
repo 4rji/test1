@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-
 # Añadir cada comando con un alias numerado al archivo .zshrc
 echo "alias kittyconf='nano ~/.config/kitty/kitty.conf'" >> ~/.zshrc
 
@@ -88,5 +87,3 @@ echo "alias 4rj='cd /home/natasha/Documents/GitHub/4rji'"  >> ~/.zshrc
 
 echo "alias sst='sudo systemctl stop sshd'"  >> ~/.zshrc
 echo "alias 4rjic='python3 /usr/bin/4rjic'"  >> ~/.zshrc
-
-
