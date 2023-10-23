@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+sudo apt install dialog -f
 
 # Añadir cada comando con un alias numerado al archivo .zshrc
 echo "alias kittyconf='nano ~/.config/kitty/kitty.conf'" >> ~/.zshrc
