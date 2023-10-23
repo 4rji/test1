@@ -2,6 +2,10 @@
 
 sudo apt install dialog -f
 
+mv p10 ~/.p10k.zsh
+
+
+
 # Añadir cada comando con un alias numerado al archivo .zshrc
 echo "alias kittyconf='nano ~/.config/kitty/kitty.conf'" >> ~/.zshrc
 
