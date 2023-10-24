@@ -10,21 +10,28 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 
 
 # Iniciar el servicio Fail2ban
-sudo systemctl enable fail2ban
-sudo systemctl start fail2ban
+sudo systemctl enable --now fail2ban
+#sudo systemctl start fail2ban
 
-#security onion stuff
+
+#security onion o para enviar log a el servidor
 #read -p "Ingrese la dirección IP de Security Onion: " ip_address
 #echo "*.* @$ip_address" | sudo tee -a /etc/rsyslog.conf >/dev/null
-sudo systemctl restart fail2ban
-sudo systemctl restart rsyslog
+#sudo systemctl restart fail2ban
+#sudo systemctl restart rsyslog
 
 
 
 #este script muestra los comandos de abajo
 f2bcomm
 
+echo ""
 
+echo "IMPORTANTE"
+echo ""
+
+echo "no se te olvide cambiar los tiempos de jail con f2mod alias"
+echo "para tiempo ilimitado: bantime = -1"
 #Comandos de fail2ban f2b
 
 #f2b = banea una IP

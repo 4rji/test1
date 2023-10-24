@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+echo ""
 echo "# Comandos de fail2ban f2b
 
 f2b = banea una IP
@@ -11,3 +12,4 @@ f2r = reinicia f2ban
 f2s = status 
 rs2 = creado para security onion"
 
+echo ""
